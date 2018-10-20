@@ -32,10 +32,7 @@ class App extends Component {
     return (
       <div className="App">
         <Notifier offline={this.state.offline} />
-        {/* <header className="App-header">
-          <img src={logo} className="App-logo" alt="" />
-          <h1 className="App-title">Mirror</h1>
-        </header> */}
+        <p>random</p>
         <Camera/>
       </div>
     );
