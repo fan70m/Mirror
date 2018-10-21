@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import Notifier from './components/Notifier';
 import Camera from "./components/Camera";
 
 class App extends Component {
@@ -31,8 +30,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Notifier offline={this.state.offline} />
-        <p>random</p>
         <Camera/>
       </div>
     );
